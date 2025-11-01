@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (data) {
                 modalTitle.textContent = data.title;
-                modalPrice.textContent = `Harga: ${data.price}`;
+                modalPrice.textContent = `${data.price}`;
 
                 // Hapus konten lama dan tambahkan gambar baru
                 modalImageContainer.innerHTML = `<img src="${data.imageSrc}" alt="Denah ${data.title}">`;
