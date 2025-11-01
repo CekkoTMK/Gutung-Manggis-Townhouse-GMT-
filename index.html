@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUNTUNG MANGGIS TOWNHOUSE | PT. Indah Dina Sejahtera</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" href="img/icont.png">
+</head>
+<body>
+
+    <a href="https://wa.me/6281348575559" class="whatsapp-float" target="_blank" aria-label="Hubungi via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo"><a href="#hero">GMT</a></h1>
+            <ul class="nav-links">
+                <li><a href="#tipe-unit">Tipe Unit</a></li>
+                <li><a href="#keunggulan">Keunggulan</a></li>
+                <li><a href="#spesifikasi">Spesifikasi</a></li>
+                <li><a href="#simulasi">Simulasi KPR</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <p class="tagline-small">Presented by PT. Indah Dina Sejahtera</p>
+            <h1>GUNTUNG MANGGIS TOWNHOUSE</h1>
+            <p class="tagline-large">Hunian Modern, Investasi Masa Depan. DP 0%!</p>
+            <a href="#tipe-unit" class="btn btn-primary">Lihat Unit</a>
+        </div>
+    </section>
+
+    <section id="tipe-unit" class="section">
+        <div class="container">
+            <h2>Pilihan Tipe Rumah</h2>
+            <div class="tipe-grid">
+                <div class="tipe-card" data-tipe="36+">
+                    <h3>Tipe 36+ / 140</h3>
+                    <p class="harga">Rp 200.000.000</p>
+                    <p>Luas Bangunan 36 m² | Luas Tanah 140 m²</p>
+                    <ul>
+                        <li><i class="fas fa-bed"></i> 2+ Kamar Tidur (Layout Suka-Suka)</li>
+                        <li><i class="fas fa-hand-holding-usd"></i> Cocok untuk Investasi & Desain Custom</li>
+                    </ul>
+                    <button class="btn btn-secondary detail-btn">Detail & Denah</button>
+                </div>
+
+                <div class="tipe-card" data-tipe="36">
+                    <h3>Tipe 36 / 140</h3>
+                    <p class="harga">Rp 180.000.000</p>
+                    <p>Luas Bangunan 36 m² | Luas Tanah 140 m²</p>
+                    <ul>
+                        <li><i class="fas fa-bed"></i> 2 Kamar Tidur</li>
+                        <li><i class="fas fa-star"></i> Program Subsidi Pemerintah</li>
+                    </ul>
+                    <button class="btn btn-secondary detail-btn">Detail & Denah</button>
+                </div>
+            </div>
+            <br>
+          <div class="area" data-tipe="10">
+                <button class="btn btn-secondary detail-btn">Lihat Area Keseluruhan</button>
+          </div>
+           
+            
+           <div id="modal-denah" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <h3 id="modal-title"></h3>
+                    <p id="modal-price"></p>
+                    <div id="modal-image-container">
+
+
+[Image of house floor plan placeholder]
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="keunggulan" class="section light-bg">
+        <div class="container">
+            <h2>Keunggulan Proyek & Fasilitas</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <i class="fas fa-shield-alt icon-large"></i>
+                    <h4>One Gate System</h4>
+                    <p>Keamanan terpusat, akses keluar masuk satu pintu.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-scroll icon-large"></i>
+                    <h4>SHM (Sertifikat Hak Milik)</h4>
+                    <p>Legalitas terjamin dan aman.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-umbrella-beach icon-large"></i>
+                    <h4>Bebas Banjir</h4>
+                    <p>Lokasi strategis dengan kontur tanah yang aman.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-piggy-bank icon-large"></i>
+                    <h4>DP 0%</h4>
+                    <p>Memudahkan Anda memiliki rumah impian tanpa uang muka besar.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-mosque icon-large"></i>
+                    <h4>Mushala</h4>
+                    <p>Fasilitas ibadah di dalam kompleks perumahan.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-tree icon-large"></i>
+                    <h4>Taman Komunal</h4>
+                    <p>Area hijau untuk bersantai dan berinteraksi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="spesifikasi" class="section">
+        <div class="container">
+            <h2>Spesifikasi Bangunan</h2>
+            <div class="accordion-container">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Struktur & Dinding <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>Pondasi = Core Beton</li>
+                            <li>Dinding = Bata Ringan</li>
+                            <li>Struktur = Besi Betoniser</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Atap & Plafond <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>Rangka Atap = Baja Ringan</li>
+                            <li>Atap = Seng Multi</li>
+                            <li>Rangka Plafond = Kayu MC</li>
+                            <li>Penutup Plafond = Nusaboard / Sejenis</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Lantai & Pintu/Jendela <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>Lantai = Keramik 40/40</li>
+                            <li>Kusen Pintu = Kayu/Ulin</li>
+                            <li>Daun Pintu = Papan & Kayu Panel</li>
+                            <li>Daun Jendela = Kayu & Kaca</li>
+                            <li>Pintu KM/Mandi = PVC Pabrikan</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Utilitas <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>Daya Listrik = 900 watt</li>
+                            <li>Air Bersih = Sumur Bor</li>
+                            <li>Sanitair =  Closet Jongkok</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="simulasi" class="section light-bg">
+        <div class="container">
+            <h2>Simulasi Angsuran KPR</h2>
+     
+            <table class="simulasi-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">
+                            angsuran flat sampai lunas <br>
+                            Harga Jual TUnai : Rp 182.000.000 <br>
+                            Tabel rata-rata Angsuran KPR subsidi
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Tenor</th>
+                        <th>Angsuran Bulanan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10 Tahun</td>
+                        <td>Rp 1.901.000</td>
+                    </tr>
+                    <tr>
+                        <td>15 Tahun</td>
+                        <td>Rp 1.415.500</td>
+                    </tr>
+                    <tr>
+                        <td>20 Tahun</td>
+                        <td>Rp 1.178.100</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="simulasi-info">
+                <p>Ingin simulasi yang lebih akurat? <a href="https://wa.me/6281348575559" target="_blank">Hubungi Marketing Kami</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="kontak">
+        <div class="container">
+            <div class="footer-info">
+                <h3>GUNTUNG MANGGIS TOWNHOUSE (GMT)</h3>
+                <p>Jl. Merdeka RT 24 RW 03 Kelurahan Guntung Manggis</p>
+                <p>Banjarbaru, Kalimantan Selatan</p>
+                <p>Developer: PT. Indah Dina Sejahtera</p>
+            </div>
+            <div class="footer-social">
+                <h4>Hubungi Kami</h4>
+                <a href="https://wa.me/6281348575559" target="_blank" class="contact-link">
+                    <i class="fab fa-whatsapp"></i> 0813 4857 5559 Budi
+                 </a>
+    <a href="https://wa.me/6285251600575" target="_blank" class="contact-link">
+                   <i class="fab fa-whatsapp"></i> 0852 5160 0575 Supiyadi
+                 </a>
+                <p class="copyright">&copy; 2025 GMT. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
